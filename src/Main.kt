@@ -4,8 +4,22 @@ fun main() {
 
 fun mostrarnumeros() {
     var num:Int=1
+
      while(num < 101){
-         println(num)
-         num++
+
+         if (num % 3 == 0 ){
+             println("tri")
+             println()
+             num++
+         }
+         else if (num % 5 == 0){
+             println("qui")
+             println()
+             num++
+         }else{
+             println(num)
+             println()
+             num++
+         }
     }
 }
