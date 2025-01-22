@@ -1,4 +1,11 @@
 fun main() {
-    println("Hello Patricia, Feliz Año Nuevo")
+    mostrarnumeros()
 }
-fun test (){}
+
+fun mostrarnumeros() {
+    var num:Int=1
+     while(num < 101){
+         println(num)
+         num++
+    }
+}
