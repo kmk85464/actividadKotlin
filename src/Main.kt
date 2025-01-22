@@ -16,7 +16,13 @@ fun mostrarnumeros() {
              println("qui")
              println()
              num++
-         }else{
+         }
+         else if ((num % 3 == 0 ) || (num % 5 == 0)){
+             println("triqui")
+             println()
+             num++
+         }
+         else{
              println(num)
              println()
              num++
